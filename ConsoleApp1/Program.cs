@@ -16,6 +16,12 @@ namespace ConsoleApp1
             {
                 Console.WriteLine(fb.Fibonachi(i));
             }
+            Console.WriteLine("----------------------------------");
+            Class2 fb1 = new Class2("localhost");
+            for (int i = 0; i <= 1000; i++)
+            {
+                Console.WriteLine(fb1.Fibonachi(i));
+            }
             Console.ReadKey();
         }
     }
