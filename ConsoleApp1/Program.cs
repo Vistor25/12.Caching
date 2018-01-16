@@ -11,13 +11,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Class1 fb = new Class1();
+            FibonachiCaching fb = new FibonachiCaching();
             for(int i = 0; i<=1000; i++)
             {
                 Console.WriteLine(fb.Fibonachi(i));
             }
             Console.WriteLine("----------------------------------");
-            Class2 fb1 = new Class2("localhost");
+            FibonachiRedis fb1 = new FibonachiRedis("localhost");
             for (int i = 0; i <= 1000; i++)
             {
                 Console.WriteLine(fb1.Fibonachi(i));

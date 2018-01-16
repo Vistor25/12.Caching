@@ -7,13 +7,13 @@ using StackExchange.Redis;
 
 namespace ClassLibrary1
 {
-    public class Class2
+    public class FibonachiRedis
     {
         private ConnectionMultiplexer redis;
         private IDatabase db;
-        public Class2(string localhost)
+        public FibonachiRedis(string localhost)
         {
-            ConnectionMultiplexer redis = ConnectionMultiplexer.Connect("localhost");
+            ConnectionMultiplexer redis = ConnectionMultiplexer.Connect(localhost);
             IDatabase db = redis.GetDatabase();
         }
 

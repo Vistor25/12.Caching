@@ -8,7 +8,7 @@ using System.Runtime.Caching;
 
 namespace ClassLibrary1
 {
-    public class Class1
+    public class FibonachiCaching
     {
         MemoryCache cache = MemoryCache.Default;
         public int Fibonachi(int n)
