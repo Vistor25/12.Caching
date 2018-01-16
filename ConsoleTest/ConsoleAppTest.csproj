@@ -61,9 +61,17 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\Fibonachi.csproj">
+    <ProjectReference Include="..\DBManager\DBWorker.csproj">
+      <Project>{f52f30fb-b283-43b9-9b1f-b18f96814f7c}</Project>
+      <Name>DBWorker</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Fibonachi\Fibonachi.csproj">
       <Project>{adcbfe69-2b2c-4a79-89df-46481f32e460}</Project>
       <Name>Fibonachi</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Northwind\Northwind.csproj">
+      <Project>{5dd3470c-17b8-45e4-a74b-4c0bb1fc50dd}</Project>
+      <Name>Northwind</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

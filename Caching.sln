@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonachi", "ClassLibrary1\Fibonachi.csproj", "{ADCBFE69-2B2C-4A79-89DF-46481F32E460}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppTest", "ConsoleApp1\ConsoleAppTest.csproj", "{A5217CA6-8320-45E8-B9CB-45BDC0EE572E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBWorker", "DBManager\DBWorker.csproj", "{F52F30FB-B283-43B9-9B1F-B18F96814F7C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind", "Northwind\Northwind.csproj", "{5DD3470C-17B8-45E4-A74B-4C0BB1FC50DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonachi", "Fibonachi\Fibonachi.csproj", "{ADCBFE69-2B2C-4A79-89DF-46481F32E460}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppTest", "ConsoleTest\ConsoleAppTest.csproj", "{A5217CA6-8320-45E8-B9CB-45BDC0EE572E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,14 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ADCBFE69-2B2C-4A79-89DF-46481F32E460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ADCBFE69-2B2C-4A79-89DF-46481F32E460}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ADCBFE69-2B2C-4A79-89DF-46481F32E460}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ADCBFE69-2B2C-4A79-89DF-46481F32E460}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A5217CA6-8320-45E8-B9CB-45BDC0EE572E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A5217CA6-8320-45E8-B9CB-45BDC0EE572E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A5217CA6-8320-45E8-B9CB-45BDC0EE572E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A5217CA6-8320-45E8-B9CB-45BDC0EE572E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F52F30FB-B283-43B9-9B1F-B18F96814F7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F52F30FB-B283-43B9-9B1F-B18F96814F7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F52F30FB-B283-43B9-9B1F-B18F96814F7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +25,14 @@ Global
 		{5DD3470C-17B8-45E4-A74B-4C0BB1FC50DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DD3470C-17B8-45E4-A74B-4C0BB1FC50DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DD3470C-17B8-45E4-A74B-4C0BB1FC50DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADCBFE69-2B2C-4A79-89DF-46481F32E460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADCBFE69-2B2C-4A79-89DF-46481F32E460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADCBFE69-2B2C-4A79-89DF-46481F32E460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADCBFE69-2B2C-4A79-89DF-46481F32E460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5217CA6-8320-45E8-B9CB-45BDC0EE572E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5217CA6-8320-45E8-B9CB-45BDC0EE572E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5217CA6-8320-45E8-B9CB-45BDC0EE572E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5217CA6-8320-45E8-B9CB-45BDC0EE572E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
